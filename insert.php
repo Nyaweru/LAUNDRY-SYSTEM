@@ -1,7 +1,7 @@
 <?php
     $host = "localhost";
     $user = "postgres";
-    $password = "nyamweru";
+    $password = "";
     $dbname = "postgres";
 
     // Connect to the database
