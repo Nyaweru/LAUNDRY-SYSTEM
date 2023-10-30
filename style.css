@@ -1,0 +1,440 @@
+
+.bottombar{
+  background-color: #fff;
+  color: #000000;
+}
+.searchIcon{
+background-color: chartreuse;
+position: absolute;
+align-items: center;
+  top:70px;
+  right: 580px;
+opacity: 70%;
+pointer-events: cursor;
+  transform: translate(100%, 100%);
+
+}
+.h1{
+    font-style: italic;
+    
+    font-size: small;
+    align-items: center;
+
+}
+    .H1{
+        align-items: centre;
+    
+        font-family: Arial, Helvetica, sans-serif;
+    
+}
+.middlebar{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height:max-content;
+    justify-content: space-evenly;
+    column-count: 4;
+    column-gap: 1cap;
+    margin-top: 160px;
+    padding: 10px;
+    column-fill:initial;
+font-style: oblique;
+    background-color:black;
+    color:whitesmoke;
+    opacity: 0.9;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+.maincontent{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    column-count: 2px;
+    column-gap: normal;
+  
+    padding: 20px;
+    
+
+}
+#overflow {
+  overflow: auto;
+}
+
+
+p2{
+    color: #5eff00;
+    font-style: oblique;
+    text-align: center;
+    float: left;
+    font-weight: 600;
+
+
+}
+table {
+    border-collapse: collapse;
+    background-image: -moz-linear-gradient();
+    width: 100%;
+
+    
+  }
+
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+    background-color: aqua;
+  }
+
+  tr:nth-child(even) {
+    background-color: #8011e7;
+  }
+  h2{
+    color:crimson;
+  }
+  tr:nth-child(odd) {
+    background-color: #291196;
+  }
+  ahref{
+color: chartreuse;
+  }
+
+  .container1 {
+    background-image: url('https://www.kindpng.com/picc/m/500-5009110_laundry-service-hd-png-download.png');
+    background-size: cover;
+    padding: 50px;
+    height: 500px;
+    color:black;
+    justify-content: space-between;
+    
+  }
+  
+  .content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    height: max-content;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p4 {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;color: brown;
+
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height:max-content;
+    color: black;
+    float: right;
+    background-color: wheat;
+    border-top: 0cap;
+  }
+  
+  label {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input [type="address"],
+  input[type ="date"] {
+    font-size: 10px;
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  input[type="submit"] {
+    background-color:black;
+    color: #fff;
+    font-size: 1opx;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: chartreuse;
+  }
+  input[type="clear"]:hover {
+    background-color: blue;
+  }
+  input[type="clear"]  {
+    background-color: #da1d1d;
+    color: #fff;
+    font-size: 1opx;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+  }
+  .booktopbar{
+    background-color: whitesmoke;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+
+
+  }
+  #townsList {
+    list-style:circle;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: lightblue;
+    position: fixed;
+    overflow: hidden;
+    z-index: 2400;
+    opacity: 0.70;
+    right: 30px;
+    top: 0px !important;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+
+  }
+  #townList li {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+  }
+.button1{
+  color: #fff;
+  background-color: black;
+  height: 20px;
+  width: fit-content;
+  padding: 3px;
+  pointer-events:cursor;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.bottombar{
+background-position: center;
+height: 150px;
+align-items: center;
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+width: 100%;
+color:black;
+align-content: center;
+background-size: cover;
+opacity: 50%;
+font-size: large;
+font-weight: 600;
+
+
+
+}
+.content2{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  color: white;
+  background-color: #B0E0E6;
+}
+.chatbox{
+  height: 500px;
+    overflow-y: scroll;
+    background-color: rgb(169, 221, 26);
+    color: black;
+    padding: 10px;
+    margin: 10px 0;
+    float:right;
+    flex: 1;
+}
+.chat-input{
+flex: 1;
+width: 80%;
+    padding: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 3px;;
+  }
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-bottom: 20px;
+    float: right;
+  }
+  .page5{
+    background-color: aquamarine;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .search {
+    border: 1px solid #000000;
+    width: 200px;
+  }
+  
+  .search input[type="text"] {
+    background: none;
+    border: 0 none;
+    float: left;
+    height: 1.5em;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 3px 0;
+    width: 180px;
+  }
+  
+  .search input[type="submit"] {
+    border: 0 none;
+    height: 1.5em;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 3px 0;
+    text-indent: 100px;
+    width: 20px;
+  }
+  .button2{
+    color: #000000;
+    background-color: rgb(90, 11, 236);
+    padding: auto;
+height: 20px;
+width: fit-content;
+
+  }
+   h{
+    color: rgb(233, 12, 12);
+    font-style:normal;
+    font-weight: 700;
+   }
+
+   .search-container {
+    display: flex;
+    left: 100px;
+    justify-content: center;
+
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  form {
+    display: flex;
+  
+    justify-content: space-evenly;
+    width: max-content;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    font-size: 18px;
+    font-weight: 200;
+    color: #000000;
+    border: none;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  button[type="submit"] {
+    padding: 8px;
+    border: none;
+    color: #000000;
+    font-size: 18px;
+    border-radius: 0 3px 3px 0;
+    background-color: #c8cac2;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #1aa7df;
+  }
+.chat-box{
+  flex-direction: column;
+  float: right;
+  display: flex;
+}
+.container{
+  background-color: #5eff00;
+  height: max-content;
+  width: 100%;
+  display: flex;
+  float:right;
+}
+* {
+    box-sizing: border-box;
+  }
+  /* Define the styles for the button link */
+.blink-button {
+    display:list-item;
+    padding: auto;
+    height: max-content;
+    background-color: #184bf4;
+    color: #fff;
+    
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Define the animation */
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Apply the animation to the button link */
+.blink-button:hover {
+    animation: blink 1s infinite; /* Blink for 1 second infinitely */
+}
+sub {
+    font-size: x-small;
+    font: optional;
+    color: #f41932; /* Adjust the value to change the font size */
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.modal-content {
+    background-color: #292727;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    margin: 5px;
+}
